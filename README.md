@@ -67,6 +67,6 @@ All models include **scaling, hyperparameter tuning with GridSearchCV**, and eva
 ## **Installation**
 
 ```bash
-git clone https://github.com/yourusername/ML-Classification-Comparisons.git
+git clone https://github.com/Serkalem-negusse1/ML-Classification-Comparisons.git
 cd ML-Classification-Comparisons
 pip install -r requirements.txt
