@@ -1,6 +1,6 @@
 # ML-Classification-Comparisons
 
-This repository demonstrates and compares three popular **supervised classification algorithms**: **Logistic Regression (LR)**, **K-Nearest Neighbors (KNN)**, and **Support Vector Machine (SVM)**. The project uses datasets like the **Diabetes dataset** and **Pulsar Stars dataset** to evaluate model performance using various metrics.
+This repository demonstrates and compares 6 popular **supervised classification algorithms**: **Logistic Regression (LR)**, **K-Nearest Neighbors (KNN)**, **Rnadom Forest**, **Decision Tree**, **Support Vector Machine (SVM)**, and **XGBoost**. The project uses datasets like the **MNIST dataset** or any Custom dataset loaded in the notebook to evaluate model performance using various metrics.
 
 ---
 
@@ -14,7 +14,7 @@ This repository demonstrates and compares three popular **supervised classificat
 - [Usage](#usage)  
 - [Results](#results)  
 - [Contributing](#contributing)  
-- [License](#license)  
+
 
 ---
 
@@ -24,7 +24,10 @@ This project explores:
 
 - Logistic Regression (LR) – a linear probabilistic model  
 - K-Nearest Neighbors (KNN) – an instance-based non-parametric model  
-- Support Vector Machine (SVM) – a margin-based classifier with kernel support  
+- Support Vector Machine (SVM) – a margin-based classifier with kernel support
+- Random Forest - an ensemble model
+- Decision Tree
+- XGBoost 
 
 It demonstrates **training, testing, hyperparameter tuning**, and **evaluation** using metrics like accuracy, confusion matrix, and ROC-AUC.
 
@@ -32,8 +35,8 @@ It demonstrates **training, testing, hyperparameter tuning**, and **evaluation**
 
 ## **Datasets**
 
-1. **Diabetes Dataset** – Binary classification predicting diabetes onset.  
-2. **Pulsar Stars Dataset** – Binary classification for pulsar star detection.  
+1. **MNIST Dataset**   
+2. **Custom Dataset**  
 
 Datasets are loaded using **scikit-learn** or downloaded as CSV files.
 
@@ -50,7 +53,7 @@ Datasets are loaded using **scikit-learn** or downloaded as CSV files.
 - **Support Vector Machine (SVM)**  
   - Linear and non-linear kernels (linear, RBF, polynomial)  
   - Hyperparameters: `C`, `kernel`, `gamma`  
-
+...
 All models include **scaling, hyperparameter tuning with GridSearchCV**, and evaluation.
 
 ---
